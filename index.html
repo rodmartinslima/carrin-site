@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrin</title>
+  <meta name="description" content="Carrin: lista de compras que lembra o preço que você pagou e avisa quando algo vai acabar." />
+  <link rel="icon" href="icone.png" />
+  <style>
+    :root { --bg: #F8FAFC; --fg: #0F172A; --muted: #475569; --accent: #0F766E; --line: #E2E8F0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0B1220; --fg: #E2E8F0; --muted: #94A3B8; --accent: #5EEAD4; --line: #1E293B; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; text-align: center; }
+    img { width: 112px; height: 112px; border-radius: 24px; }
+    h1 { color: var(--accent); margin: 16px 0 4px; }
+    .muted { color: var(--muted); }
+    ul { text-align: left; display: inline-block; margin: 24px auto; padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <img src="icone.png" alt="Ícone do Carrin" />
+  <h1>Carrin</h1>
+  <p class="muted">O histórico do seu supermercado na palma da mão.</p>
+  <ul>
+    <li>Lista de compras com leitura de código de barras</li>
+    <li>Histórico dos preços que você pagou em cada mercado</li>
+    <li>Aviso de quando cada produto deve acabar em casa</li>
+    <li>Sem cadastro, sem login e sem anúncios: seus dados ficam no seu celular</li>
+  </ul>
+  <footer>
+    <a href="politica-de-privacidade.html">Política de Privacidade</a>
+  </footer>
+</main>
+</body>
+</html>
